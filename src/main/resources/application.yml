@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-webflux-playground
+#  r2dbc:
+#    url: r2dbc:postgresql://postgres@localhost:5432/webflux
+  sql:
+    init:
+      data-locations: classpath:sql/data.sql
+
+sec: sec01
